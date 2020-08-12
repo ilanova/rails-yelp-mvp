@@ -21,7 +21,6 @@
         <td><%= restaurant.phone_number %></td>
         <td><%= restaurant.category %></td>
         <td><%= link_to 'Show', restaurant %></td>
-        <td><%= link_to 'Edit', edit_restaurant_path(restaurant) %></td>
       </tr>
     <% end %>
   </tbody>
@@ -29,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Restaurant', new_restaurant_path %>
+<%= link_to 'Add a restaurant', restaurants_new_path  %>
